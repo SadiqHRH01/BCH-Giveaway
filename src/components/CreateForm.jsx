@@ -21,8 +21,8 @@ export default function CreateForm({ onCreate, onBack }) {
 
         <label className="block text-sm text-gray-400">Lock Time</label>
         <select value={blockDelay} onChange={(e) => setBlockDelay(e.target.value)} className="mt-1 mb-4 w-full rounded border border-gray-600 bg-gray-700 text-white px-3 py-2">
-          <option value={10}>10 blocks (demo)</option>
-          <option value={0.5}>5 minutes (approx)</option>
+          <option value={10}>10 blocks</option>
+          <option value={0.5}>5 minutes</option>
           <option value={144}>144 blocks (approx. 1 day)</option>
           <option value={1008}>1008 blocks (approx. 1 week)</option>
         </select>
@@ -32,7 +32,7 @@ export default function CreateForm({ onCreate, onBack }) {
           <button type="button" onClick={onBack} className="px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-600">Cancel</button>
         </div>
 
-        <p className="text-xs text-slate-400 mt-4">Note: This demo uses a mock timer address. For production, integrate bch-js and a Blockbook watcher.</p>
+        <p className="text-xs text-slate-400 mt-4">Note: This uses a mock timer address. </p>
       </form>
     </div>
   )
