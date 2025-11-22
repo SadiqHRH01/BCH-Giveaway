@@ -32,6 +32,9 @@ A small React app that simulates timed giveaways entirely in the browser. It’s
 ## Typical flows
 - Creator: create → copy contract address → simulate funding → wait for unlock.
 - Claimer: browse giveaways → enter address → claim after unlock → transaction simulated and UI updates.
+- Login with User A and create giveaway then log out and login with User B to claim the giveaway created by user A
+
+
 
 ## Tests & checks
 - Creator cannot claim their own giveaway.
@@ -49,6 +52,7 @@ A small React app that simulates timed giveaways entirely in the browser. It’s
 - Integrate a backend and real block data.
 - Replace mock logic with on-chain contracts.
 - Add wallet integration for real signing and broadcasting.
+
 
 
 
