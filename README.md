@@ -1,4 +1,4 @@
-# Timed Giveaway — Local UI Prototype
+# BCH GIVEAWAY
 
 A small React app that simulates timed giveaways entirely in the browser. It’s intended as a UI prototype: create a giveaway, fund it, wait a simulated block timer, then claim the prize. No backend, no wallet, just P2S lyla Upgrade.
 
@@ -22,7 +22,7 @@ A small React app that simulates timed giveaways entirely in the browser. It’s
 
 ## Getting started (developer)
 1. Clone the repo and open the project:
-   git clone <repo-url>
+   clone repo
    cd giveaway-platform
 2. Install dependencies:
    npm install
@@ -50,6 +50,5 @@ A small React app that simulates timed giveaways entirely in the browser. It’s
 - Replace mock logic with on-chain contracts.
 - Add wallet integration for real signing and broadcasting.
 
-## License
 
-MIT
+
