@@ -29,8 +29,6 @@ A small React app that simulates timed giveaways entirely in the browser. It’s
 3. Start the frontend:
    npm run dev
 
-(There is an optional Node backend in the prototype. If you use it, set CHRONIK and NETWORK in .env and run node server.js.)
-
 ## Typical flows
 - Creator: create → copy contract address → simulate funding → wait for unlock.
 - Claimer: browse giveaways → enter address → claim after unlock → transaction simulated and UI updates.
@@ -53,4 +51,5 @@ A small React app that simulates timed giveaways entirely in the browser. It’s
 - Add wallet integration for real signing and broadcasting.
 
 ## License
+
 MIT
